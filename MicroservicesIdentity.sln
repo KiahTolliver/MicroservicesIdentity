@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9EEDEDA3-8019-426E-9403-0A83D9157110}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{17661822-523D-4E90-81AD-D3C285C16778}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{DDA9909A-082A-4BCC-A36E-EA780CA52094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesIdentity.Services.EventAPI", "Services\MicroservicesIdentity.Services.EventAPI\MicroservicesIdentity.Services.EventAPI.csproj", "{60F1762A-36C2-4C56-9640-3DA6BF4B0B9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesIdentity.Services.SessionAPI", "Services\MicroservicesIdentity.Services.SessionAPI\MicroservicesIdentity.Services.SessionAPI.csproj", "{8A115A91-34EC-4AB0-B72E-631AA10A19C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesIdentity.Services.SpeakerAPI", "Services\MicroservicesIdentity.Services.SpeakerAPI\MicroservicesIdentity.Services.SpeakerAPI.csproj", "{9E29A9AB-4CA3-447B-8FD2-F769F92892D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesIdentity.Web", "FrontEnd\MicroservicesIdentity.Web\MicroservicesIdentity.Web.csproj", "{8B8C7926-9B1F-4B80-922F-B484AF3FCDFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesIdentity.GatewaySolution", "Gateway\MicroservicesIdentity.GatewaySolution\MicroservicesIdentity.GatewaySolution.csproj", "{D7069850-239B-43A8-8941-548A21B5C546}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60F1762A-36C2-4C56-9640-3DA6BF4B0B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F1762A-36C2-4C56-9640-3DA6BF4B0B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F1762A-36C2-4C56-9640-3DA6BF4B0B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F1762A-36C2-4C56-9640-3DA6BF4B0B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A115A91-34EC-4AB0-B72E-631AA10A19C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A115A91-34EC-4AB0-B72E-631AA10A19C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A115A91-34EC-4AB0-B72E-631AA10A19C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A115A91-34EC-4AB0-B72E-631AA10A19C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E29A9AB-4CA3-447B-8FD2-F769F92892D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E29A9AB-4CA3-447B-8FD2-F769F92892D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E29A9AB-4CA3-447B-8FD2-F769F92892D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E29A9AB-4CA3-447B-8FD2-F769F92892D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B8C7926-9B1F-4B80-922F-B484AF3FCDFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8C7926-9B1F-4B80-922F-B484AF3FCDFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8C7926-9B1F-4B80-922F-B484AF3FCDFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B8C7926-9B1F-4B80-922F-B484AF3FCDFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7069850-239B-43A8-8941-548A21B5C546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7069850-239B-43A8-8941-548A21B5C546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7069850-239B-43A8-8941-548A21B5C546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7069850-239B-43A8-8941-548A21B5C546}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F56DAAF-7D2C-4D1A-B00D-B98C1E8A9990}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60F1762A-36C2-4C56-9640-3DA6BF4B0B9A} = {9EEDEDA3-8019-426E-9403-0A83D9157110}
+		{8A115A91-34EC-4AB0-B72E-631AA10A19C4} = {9EEDEDA3-8019-426E-9403-0A83D9157110}
+		{9E29A9AB-4CA3-447B-8FD2-F769F92892D6} = {9EEDEDA3-8019-426E-9403-0A83D9157110}
+		{8B8C7926-9B1F-4B80-922F-B484AF3FCDFB} = {17661822-523D-4E90-81AD-D3C285C16778}
+		{D7069850-239B-43A8-8941-548A21B5C546} = {DDA9909A-082A-4BCC-A36E-EA780CA52094}
+	EndGlobalSection
+EndGlobal
