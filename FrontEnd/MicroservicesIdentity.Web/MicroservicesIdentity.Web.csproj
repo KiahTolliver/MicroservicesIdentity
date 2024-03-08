@@ -8,4 +8,23 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <None Remove="Utility\" />
+    <None Remove="Service\" />
+    <None Remove="Service\IService\" />
+    <None Remove="Views\Event\" />
+    <None Remove="Views\Session\" />
+    <None Remove="Views\Speaker\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utility\" />
+    <Folder Include="Service\" />
+    <Folder Include="Service\IService\" />
+    <Folder Include="Views\Event\" />
+    <Folder Include="Views\Session\" />
+    <Folder Include="Views\Speaker\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
 </Project>
