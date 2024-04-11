@@ -53,17 +53,17 @@ namespace MicroservicesIdentity.Web.Controllers
             return View(model);
         }
 
-        public async Task<IActionResult> SpeakerDelete(int id)
-        {
-            ResponseDto? response = await _speakerService.GetSpeakerByIdAsync(id);
+        //public async Task<IActionResult> SpeakerDelete(int id)
+        //{
+        //    ResponseDto? response = await _speakerService.GetSpeakerByIdAsync(id);
 
-            if (response != null && response.IsSuccess)
-            {
-                var model = JsonConvert.DeserializeObject<SpeakerDto>(Convert.ToString(response.Result));
-                return View(model);
-            }
-            return NotFound();
-        }
+        //    if (response != null && response.IsSuccess)
+        //    {
+        //        var model = JsonConvert.DeserializeObject<SpeakerDto>(Convert.ToString(response.Result));
+        //        return View(model);
+        //    }
+        //    return NotFound();
+        //}
     }
 }
 
